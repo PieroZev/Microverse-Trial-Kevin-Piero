@@ -1,14 +1,23 @@
-@media (max-width: 767px) {
+ 
     body {
-      background-color: yellow;
+    text-align: center;
+    font-style: oblique;
+    font-size: 15px;
+      background-color: rgb(64, 71, 156);
     }
-  }
+  
   #welcome-section {
-    height: 100vh;
+    height: 80vh;
+    color: #a83156;
   }
   #navbar {
+    color: rgb(74, 49, 95);
     position: fixed;
-    top: 0;
+    /* top: 0; */
     left: 0;
-    width: 100%;
+    width: 85%;
+  }
+  #head {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
